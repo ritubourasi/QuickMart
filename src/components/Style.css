@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  Navbar (Category buttons) */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+nav button {
+  background-color: #232f3e;   
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #febd69;   
+  color: #111;
+}
+
+/*  Card container */
+.main-card--container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/*  Individual Card */
+.card-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  padding: 15px;
+}
+
+.card-container:hover {
+  transform: scale(1.03);
+}
+
+/*  Card Image */
+.card-container img {
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.card-number {
+  display: inline-block;
+  background: #232f3e;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 50%;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.card-author {
+  display: block;
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.card-read {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #007185;
+  cursor: pointer;
+}
+.card-read:hover {
+  text-decoration: underline;
+}

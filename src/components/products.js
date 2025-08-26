@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 1,
+    images: "images/laptop.jpeg",
+    name: "Laptop",
+    category: "Computers",
+    price: 50000,
+    description: "High performance laptop for work and gaming",
+  },
+  {
+    id: 2,
+    images: "images/mobile.jpeg",
+    name: "Mobile Phone",
+    category: "Mobiles",
+    price: 20000,
+    description: "Latest smartphone with powerful processor",
+  },
+  {
+    id: 3,
+    images: "images/smart tv.jpeg",
+    name: "Smart TV",
+    category: "Home Appliances",
+    price: 30000,
+    description: "4K Ultra HD Smart TV with WiFi",
+  },
+  {
+    id: 4,
+    images: "images/headphone.jpeg",
+    name: "Headphones",
+    category: "Accessories",
+    price: 2000,
+    description: "Noise-cancelling wireless headphones",
+  },
+  {
+    id: 5,
+    images: "images/refrigerator.jpeg",
+    name: "Refrigerator",
+    category: "Home Appliances",
+    price: 25000,
+    description: "Double-door energy efficient refrigerator",
+  },
+  {
+    id: 6,
+    images: "images/tablet.jpeg",
+    name: "Tablet",
+    category: "Computers",
+    price: 15000,
+    description: "Lightweight tablet for study and entertainment",
+  },
+  {
+    id: 7,
+    images: "images/smartwatch.jpeg",
+    name: "Smartwatch",
+    category: "Accessories",
+    price: 5000,
+    description: "Waterproof smartwatch with fitness tracking",
+  },
+  {
+    id: 8,
+    images: "images/washing-machine.jpeg",
+    name: "Washing Machine",
+    category: "Home Appliances",
+    price: 22000,
+    description: "Automatic washing machine with multiple modes",
+  },
+];
+
+export default products;
